@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="title" style="text-align: center;padding-top: 32px;">魇系列快捷下载</div>
+        <div
+            style="padding: 20px 30px 20px 30px;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: flex-start;">
+            <div class="card">
+                <div class="row">
+                    <img src="img/YanTool.png" style="width:32px;height: 32px;margin-right: 10px;" alt="">
+                    <div class="cardTitle">魇·工具箱</div>
+                </div>
+                <div class="subtitle">集众多开源项目于一体,支持在安卓设备上处理镜像的工具箱</div>
+                <div style="height: 8px;"></div>
+                <div style="width: 100%;display: flex;flex-direction: row;justify-content:space-between;">
+                    <div class="button" style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">主页</div>
+                    </div>
+                    <div onclick="onClick('http://nightmare.fun/YanTool/resources/YanTool/')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">下载</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <img src="img/REMOTE.png" style="width:40px;height: 40px;margin-right: 10px;" alt="">
+                    <div class="cardTitle">无界投屏</div>
+                </div>
+                <div class="subtitle">基于Scrcpy开源项目开发的GUI客户端，支持 macOS、Windows、Linux、Android</div>
+                <div style="height: 8px;"></div>
+                <div style="width: 100%;display: flex;flex-direction: row;justify-content:space-between;">
+                    <div class="button" onclick="onClick('http://nightmare.fun/screen/')"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">主页</div>
+                    </div>
+                    <div onclick="onClick('http://nightmare.fun/YanTool/resources/Remote/')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">下载</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <img src="img/ADBTOOL.png" style="width:40px;height: 40px;margin-right: 10px;" alt="">
+                    <div class="cardTitle">ADB工具</div>
+                </div>
+                <div class="subtitle">支持 Android、macOS、Windows、Linux 四个平台的ADB工具</div>
+                <div style="height: 8px;"></div>
+                <div style="width: 100%;display: flex;flex-direction: row;justify-content:space-between;">
+                    <div onclick="onClick('http://nightmare.fun/adb')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">主页</div>
+                    </div>
+                    <div onclick="onClick('https://github.com/nightmare-space/adb_tool')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">开源</div>
+                    </div>
+                    <div onclick="onClick('http://nightmare.fun/YanTool/resources/AdbTool/')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">下载</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <img src="img/SpeedShare.png" style="width:40px;height: 40px;margin-right: 10px;" alt="">
+                    <div class="cardTitle">速享</div>
+                </div>
+                <div class="subtitle">局域网文件共享的解决方案，支持 Android、macOS、Windows、Linux、Web 五个平台</div>
+                <div style="height: 8px;"></div>
+                <div style="width: 100%;display: flex;flex-direction: row;justify-content:space-between;">
+                    <div class="button" style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">主页</div>
+                    </div>
+                    <div class="button" onclick="onClick('https://github.com/nightmare-space/speed_share')"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">开源</div>
+                    </div>
+                    <button onclick="onClick('http://nightmare.fun/YanTool/resources/SpeedShare/')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">下载</div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <img src="img/default.png" style="width:40px;height: 40px;margin-right: 10px;" alt="">
+                    <div class="cardTitle">AppManager</div>
+                </div>
+                <div class="subtitle">安卓上的应用管理器，支持在PC管理安卓应用</div>
+                <div style="height: 8px;"></div>
+                <div style="width: 100%;display: flex;flex-direction: row;justify-content:space-between;">
+                    <div class="button" style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">主页</div>
+                    </div>
+
+                    <div class="button" onclick="onClick('https://github.com/nightmare-space/app_manager')"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">开源</div>
+                    </div>
+
+                    <button onclick="onClick('http://nightmare.fun/YanTool/resources/AppManager/')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">下载</div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <img src="img/Termare.png" style="width:40px;height: 40px;margin-right: 10px;" alt="">
+                    <div class="cardTitle">Termare</div>
+                </div>
+                <div class="subtitle">Termare 类似于 Termux ，在安卓端有独立的源，但支持多个平台，还在大量的开发与测试中~，支持Windows、Linux、macOS、Android，
+                </div>
+                <div style="height: 8px;"></div>
+                <div style="width: 100%;display: flex;flex-direction: row;justify-content:space-between;">
+                    <div class="button" onclick="onClick('https://nightmare.fun/termarehome')"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">主页</div>
+                    </div>
+                    <div class="button" onclick="onClick('https://github.com/Termare/termare_app')"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">开源</div>
+                    </div>
+                    <button onclick="onClick('http://nightmare.fun/YanTool/resources/Termare')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">下载</div>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <img src="img/VSCode.png" style="width:40px;height: 40px;margin-right: 10px;" alt="">
+                    <div class="cardTitle">Code FA</div>
+                </div>
+                <div class="subtitle">VS Code For Android，使用 code-server 实现的安卓本地 VS Code，拥有 PC 端的大部分功能，图标待换</div>
+                <div style="height: 8px;"></div>
+                <div style="width: 100%;display: flex;flex-direction: row;justify-content:space-between;">
+                    <div class="button" style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">主页</div>
+                    </div>
+                    <div class="button" onclick="onClick('https://github.com/nightmare-space/vscode_for_android')"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">开源</div>
+                    </div>
+                    <button onclick="onClick('http://nightmare.fun/YanTool/resources/VSCode/')" class="button"
+                        style="display: flex; align-items: center;justify-content: center;">
+                        <div style="height:20px;line-height:20px;">下载</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 80px;"></div>
+    <div style="width:100%;bottom: 12px;text-align: center;">
+        <a href="http://beian.miit.gov.cn/" target="_blank"
+            style="color: white;padding-bottom: 16px;text-align: center;">蜀ICP备19028537号</a>
+    </div>
+</body>
+
+</html>

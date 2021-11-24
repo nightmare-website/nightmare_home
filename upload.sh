@@ -1,0 +1,1 @@
+rsync -vr ./* root@$server:/home/nightmare/apache-tomcat/webapps/ROOT/
